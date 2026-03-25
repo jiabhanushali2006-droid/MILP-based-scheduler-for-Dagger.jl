@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="382">
+<rect width="900" height="382" fill="#F8F9FA"/>
+<text x="450" y="32" text-anchor="middle" font-size="15" font-family="Arial" font-weight="bold" fill="#212529">All-CPU Naive Schedule (n=8) — No Device Awareness</text>
+<line x1="110" y1="55" x2="110" y2="327" stroke="#DEE2E6" stroke-width="1"/>
+<text x="110" y="343" text-anchor="middle" font-size="10" font-family="Arial" fill="#495057">0ms</text>
+<line x1="298" y1="55" x2="298" y2="327" stroke="#DEE2E6" stroke-width="1"/>
+<text x="298" y="343" text-anchor="middle" font-size="10" font-family="Arial" fill="#495057">1252ms</text>
+<line x1="485" y1="55" x2="485" y2="327" stroke="#DEE2E6" stroke-width="1"/>
+<text x="485" y="343" text-anchor="middle" font-size="10" font-family="Arial" fill="#495057">2505ms</text>
+<line x1="672" y1="55" x2="672" y2="327" stroke="#DEE2E6" stroke-width="1"/>
+<text x="672" y="343" text-anchor="middle" font-size="10" font-family="Arial" fill="#495057">3757ms</text>
+<line x1="860" y1="55" x2="860" y2="327" stroke="#DEE2E6" stroke-width="1"/>
+<text x="860" y="343" text-anchor="middle" font-size="10" font-family="Arial" fill="#495057">5010ms</text>
+<text x="485" y="374" text-anchor="middle" font-size="11" font-family="Arial" fill="#495057">Wall-clock time (ms)</text>
+<rect x="110" y="55" width="114" height="28" fill="#4472C4" rx="3" opacity="0.88"/>
+<text x="104" y="73" text-anchor="end" font-size="10" font-family="Arial" fill="#212529">T1 CPU</text>
+<text x="167" y="73" text-anchor="middle" font-size="10" font-family="Arial" fill="white">758ms</text>
+<rect x="224" y="89" width="121" height="28" fill="#4472C4" rx="3" opacity="0.88"/>
+<text x="104" y="107" text-anchor="end" font-size="10" font-family="Arial" fill="#212529">T2 CPU</text>
+<text x="284" y="107" text-anchor="middle" font-size="10" font-family="Arial" fill="white">808ms</text>
+<rect x="345" y="123" width="64" height="28" fill="#4472C4" rx="3" opacity="0.88"/>
+<text x="104" y="141" text-anchor="end" font-size="10" font-family="Arial" fill="#212529">T3 CPU</text>
+<text x="377" y="141" text-anchor="middle" font-size="10" font-family="Arial" fill="white">432ms</text>
+<rect x="410" y="157" width="97" height="28" fill="#4472C4" rx="3" opacity="0.88"/>
+<text x="104" y="175" text-anchor="end" font-size="10" font-family="Arial" fill="#212529">T4 CPU</text>
+<text x="458" y="175" text-anchor="middle" font-size="10" font-family="Arial" fill="white">648ms</text>
+<rect x="507" y="191" width="119" height="28" fill="#4472C4" rx="3" opacity="0.88"/>
+<text x="104" y="209" text-anchor="end" font-size="10" font-family="Arial" fill="#212529">T5 CPU</text>
+<text x="566" y="209" text-anchor="middle" font-size="10" font-family="Arial" fill="white">798ms</text>
+<rect x="626" y="225" width="112" height="28" fill="#4472C4" rx="3" opacity="0.88"/>
+<text x="104" y="243" text-anchor="end" font-size="10" font-family="Arial" fill="#212529">T6 CPU</text>
+<text x="682" y="243" text-anchor="middle" font-size="10" font-family="Arial" fill="white">748ms</text>
+<rect x="739" y="259" width="57" height="28" fill="#4472C4" rx="3" opacity="0.88"/>
+<text x="104" y="277" text-anchor="end" font-size="10" font-family="Arial" fill="#212529">T7 CPU</text>
+<text x="767" y="277" text-anchor="middle" font-size="10" font-family="Arial" fill="white">384ms</text>
+<rect x="796" y="293" width="64" height="28" fill="#4472C4" rx="3" opacity="0.88"/>
+<text x="104" y="311" text-anchor="end" font-size="10" font-family="Arial" fill="#212529">T8 CPU</text>
+<text x="828" y="311" text-anchor="middle" font-size="10" font-family="Arial" fill="white">426ms</text>
+<rect x="110" y="361" width="13" height="13" fill="#4472C4" rx="2"/>
+<text x="127" y="372" font-size="10" font-family="Arial" fill="#212529">CPU thread</text>
+<rect x="200" y="361" width="13" height="13" fill="#70AD47" rx="2"/>
+<text x="217" y="372" font-size="10" font-family="Arial" fill="#212529">GPU thread</text>
+</svg>

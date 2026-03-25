@@ -1,0 +1,133 @@
+DAGGER.JL SCHEDULER BENCHMARK RESULTS
+Generated: 2026-03-24 20:19:37
+
+Task Size: 20
+  Run 1:
+    MinMin        makespan=  449.02  time=  0.0040 s  speedup= 0.913
+    HEFT          makespan=  409.86  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan=  406.00  time=  0.0000 s  speedup= 1.010
+    Random        makespan=  479.24  time=  0.0000 s  speedup= 0.855
+    MaxMin        makespan=  418.70  time=  0.0000 s  speedup= 0.979
+    MILP          makespan=  395.90  time= 22.8400 s  speedup= 1.035
+    RoundRobin    makespan=  535.80  time=  0.0000 s  speedup= 0.765
+  Run 2:
+    MinMin        makespan=  384.36  time=  0.0000 s  speedup= 1.005
+    HEFT          makespan=  386.30  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan=  373.32  time=  0.0000 s  speedup= 1.035
+    Random        makespan=  526.84  time=  0.0000 s  speedup= 0.733
+    MaxMin        makespan=  400.22  time=  0.0000 s  speedup= 0.965
+    MILP          makespan=  372.56  time= 20.0460 s  speedup= 1.037
+    RoundRobin    makespan=  397.00  time=  0.0000 s  speedup= 0.973
+  Run 3:
+    MinMin        makespan=  447.70  time=  0.0000 s  speedup= 0.992
+    HEFT          makespan=  444.14  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan=  429.54  time=  0.0000 s  speedup= 1.034
+    Random        makespan=  538.40  time=  0.0000 s  speedup= 0.825
+    MaxMin        makespan=  466.16  time=  0.0000 s  speedup= 0.953
+    MILP          makespan=  421.02  time= 20.0580 s  speedup= 1.055
+    RoundRobin    makespan=  543.00  time=  0.0000 s  speedup= 0.818
+
+Task Size: 40
+  Run 1:
+    MinMin        makespan=  788.14  time=  0.0000 s  speedup= 0.907
+    HEFT          makespan=  714.90  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan=  736.68  time=  0.0000 s  speedup= 0.970
+    Random        makespan=  888.56  time=  0.0000 s  speedup= 0.805
+    MaxMin        makespan=  830.30  time=  0.0000 s  speedup= 0.861
+    MILP          makespan=  981.78  time= 20.2010 s  speedup= 0.728
+    RoundRobin    makespan=  912.10  time=  0.0000 s  speedup= 0.784
+  Run 2:
+    MinMin        makespan=  767.68  time=  0.0000 s  speedup= 0.941
+    HEFT          makespan=  722.28  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan=  703.92  time=  0.0000 s  speedup= 1.026
+    Random        makespan= 1083.20  time=  0.0000 s  speedup= 0.667
+    MaxMin        makespan=  739.56  time=  0.0000 s  speedup= 0.977
+    MILP          makespan= 1091.14  time= 20.1500 s  speedup= 0.662
+    RoundRobin    makespan=  989.20  time=  0.0000 s  speedup= 0.730
+  Run 3:
+    MinMin        makespan=  807.32  time=  0.0000 s  speedup= 0.955
+    HEFT          makespan=  770.64  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan=  770.94  time=  0.0000 s  speedup= 1.000
+    Random        makespan=  875.52  time=  0.0000 s  speedup= 0.880
+    MaxMin        makespan=  814.46  time=  0.0000 s  speedup= 0.946
+    MILP          makespan=     Inf  time=     Inf s  speedup= 0.000
+    RoundRobin    makespan=  912.40  time=  0.0000 s  speedup= 0.845
+
+Task Size: 60
+  Run 1:
+    MinMin        makespan= 1194.88  time=  0.0000 s  speedup= 0.942
+    HEFT          makespan= 1125.78  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan= 1126.20  time=  0.0000 s  speedup= 1.000
+    Random        makespan= 1434.30  time=  0.0000 s  speedup= 0.785
+    MaxMin        makespan= 1183.10  time=  0.0010 s  speedup= 0.952
+    MILP          makespan=     Inf  time=     Inf s  speedup= 0.000
+    RoundRobin    makespan= 1459.50  time=  0.0000 s  speedup= 0.771
+  Run 2:
+    MinMin        makespan= 1134.74  time=  0.0010 s  speedup= 0.952
+    HEFT          makespan= 1079.90  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan= 1059.90  time=  0.0000 s  speedup= 1.019
+    Random        makespan= 1340.40  time=  0.0000 s  speedup= 0.806
+    MaxMin        makespan= 1086.48  time=  0.0000 s  speedup= 0.994
+    MILP          makespan=     Inf  time=     Inf s  speedup= 0.000
+    RoundRobin    makespan= 1442.30  time=  0.0000 s  speedup= 0.749
+  Run 3:
+    MinMin        makespan= 1268.48  time=  0.0010 s  speedup= 0.968
+    HEFT          makespan= 1227.72  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan= 1203.70  time=  0.0000 s  speedup= 1.020
+    Random        makespan= 1833.80  time=  0.0000 s  speedup= 0.669
+    MaxMin        makespan= 1259.42  time=  0.0000 s  speedup= 0.975
+    MILP          makespan=     Inf  time=     Inf s  speedup= 0.000
+    RoundRobin    makespan= 1576.50  time=  0.0010 s  speedup= 0.779
+
+Task Size: 80
+  Run 1:
+    MinMin        makespan= 1672.84  time=  0.0010 s  speedup= 0.943
+    HEFT          makespan= 1577.10  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan= 1577.90  time=  0.0000 s  speedup= 0.999
+    Random        makespan= 1837.00  time=  0.0000 s  speedup= 0.859
+    MaxMin        makespan= 1601.42  time=  0.0010 s  speedup= 0.985
+    MILP          makespan=     Inf  time=     Inf s  speedup= 0.000
+    RoundRobin    makespan= 1919.20  time=  0.0000 s  speedup= 0.822
+  Run 2:
+    MinMin        makespan= 1496.80  time=  0.0000 s  speedup= 0.954
+    HEFT          makespan= 1428.50  time=  0.0010 s  speedup= 1.000
+    Greedy        makespan= 1440.90  time=  0.0000 s  speedup= 0.991
+    Random        makespan= 1701.66  time=  0.0000 s  speedup= 0.839
+    MaxMin        makespan= 1476.16  time=  0.0000 s  speedup= 0.968
+    MILP          makespan=     Inf  time=     Inf s  speedup= 0.000
+    RoundRobin    makespan= 2031.70  time=  0.0000 s  speedup= 0.703
+  Run 3:
+    MinMin        makespan= 1391.22  time=  0.0010 s  speedup= 0.940
+    HEFT          makespan= 1308.20  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan= 1300.00  time=  0.0000 s  speedup= 1.006
+    Random        makespan= 1482.50  time=  0.0000 s  speedup= 0.882
+    MaxMin        makespan= 1369.86  time=  0.0000 s  speedup= 0.955
+    MILP          makespan=     Inf  time=     Inf s  speedup= 0.000
+    RoundRobin    makespan= 1712.30  time=  0.0000 s  speedup= 0.764
+
+Task Size: 100
+  Run 1:
+    MinMin        makespan= 1910.02  time=  0.0000 s  speedup= 0.972
+    HEFT          makespan= 1856.88  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan= 1877.64  time=  0.0010 s  speedup= 0.989
+    Random        makespan= 2423.20  time=  0.0000 s  speedup= 0.766
+    MaxMin        makespan= 1907.54  time=  0.0000 s  speedup= 0.973
+    MILP          makespan=     Inf  time=     Inf s  speedup= 0.000
+    RoundRobin    makespan= 2412.30  time=  0.0000 s  speedup= 0.770
+  Run 2:
+    MinMin        makespan= 1911.24  time=  0.0000 s  speedup= 0.951
+    HEFT          makespan= 1817.50  time=  0.0010 s  speedup= 1.000
+    Greedy        makespan= 1806.00  time=  0.0000 s  speedup= 1.006
+    Random        makespan= 1965.42  time=  0.0000 s  speedup= 0.925
+    MaxMin        makespan= 1890.72  time=  0.0010 s  speedup= 0.961
+    MILP          makespan=     Inf  time=     Inf s  speedup= 0.000
+    RoundRobin    makespan= 2383.30  time=  0.0000 s  speedup= 0.763
+  Run 3:
+    MinMin        makespan= 1959.60  time=  0.0010 s  speedup= 0.990
+    HEFT          makespan= 1940.50  time=  0.0000 s  speedup= 1.000
+    Greedy        makespan= 1934.64  time=  0.0010 s  speedup= 1.003
+    Random        makespan= 3184.50  time=  0.0000 s  speedup= 0.609
+    MaxMin        makespan= 2022.72  time=  0.0000 s  speedup= 0.959
+    MILP          makespan=     Inf  time=     Inf s  speedup= 0.000
+    RoundRobin    makespan= 2585.50  time=  0.0010 s  speedup= 0.751
+
